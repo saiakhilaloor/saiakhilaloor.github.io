@@ -1,4 +1,5 @@
 body, html{
+	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding:0;
 	background: #26221a;
@@ -33,6 +34,7 @@ canvas{
 h1{
 	color: #FFE658;
 	text-align: center;
+	font-family: 'Marcellus SC', sans-serif;
 }
 li {
 	display: inline;
