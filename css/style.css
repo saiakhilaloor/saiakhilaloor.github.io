@@ -1,5 +1,6 @@
+
 body, html{
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding:0;
 	background: #26221a;
@@ -32,14 +33,13 @@ canvas{
 	border: 5px solid #FFE658;
 }
 h1{
+    font-family: 'Marcellus SC', serif;
 	color: #FFE658;
 	text-align: center;
-	font-family: 'Marcellus SC', sans-serif;
 }
 li {
 	display: inline;
 }
-
 .nav {
     display: flex;
     flex-direction: row;
@@ -60,6 +60,16 @@ li {
 .out li a{
     z-index: 999;
     position: relative;
+}
+.over h1{
+    text-decoration :none;
+    position: relative;
+    z-index: 999;
+}
+.over a{
+    text-decoration :none;
+    position: relative;
+    z-index: 999;
 }
 .btn-social {
     display: inline-block;
@@ -88,9 +98,16 @@ li {
     background: #fff;
 }
 #particles-js {
+    position: absolute;
     height: 100%;
     width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url("");
+    top: 0;
 }
+
 @media screen and (max-width: 760px){
     h1{
         font-size: 25px;
