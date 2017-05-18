@@ -17,6 +17,10 @@ section{
 	width: 100%;
 	text-align: center;
 }
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
 .image{
 	width: 180px;
 	height: 180px;
@@ -75,4 +79,13 @@ li {
     border: solid 2px #fff;
     color: #26221a;
     background: #fff;
+}
+#particles-js {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
 }
