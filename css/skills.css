@@ -87,4 +87,11 @@ h1{
     .nav{
 		font-size:12px;
     }
+    .container {
+    	width: 40%;
+    	margin: 15px auto;
+    }
+    #particles-js{
+    	height: 200%;
+    }
 }
