@@ -50,7 +50,7 @@ var myChart = new Chart(ctx, {
         "#01FF70",
         "#fff",
       ],
-      data: [70,30]
+      data: [80,20]
     }]
   }
 });
@@ -78,7 +78,7 @@ var myChart = new Chart(ctx, {
         "#CD5C5C",
         "#fff",
       ],
-      data: [65,35]
+      data: [70,30]
     }]
   }
 });
@@ -92,7 +92,7 @@ var myChart = new Chart(ctx, {
         "#FF851B",
         "#fff",
       ],
-      data: [85,15]
+      data: [75,25]
     }]
   }
 });
