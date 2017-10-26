@@ -1,2 +1,2 @@
-# saiakhilaloor.github.io
-Personal Website
+
+Personal Website created in HTML, CSS and JavaScript
